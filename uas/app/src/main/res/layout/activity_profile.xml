@@ -28,25 +28,24 @@
             android:layout_marginTop="10dp"
             android:gravity="center"/>
         <TextView
-            android:id="@+id/nim"
+            android:id="@+id/nim_kelas"
             android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:text="00000039724"
+            android:layout_height="40dp"
+            android:text="00000039724\nIF570-AL"
             android:gravity="center"/>
+
         <TextView
-            android:id="@+id/nim"
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:text="IF570-AL"
-            android:gravity="center"/>
-        <TextView
-            android:id="@+id/nim"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginTop="30dp"
             android:textSize="18dp"
             android:text="REFERENSI"
             android:gravity="center"/>
-
+        <TextView
+            android:autoLink="web"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="8dp"
+            android:text="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/1024px-Speaker_Icon.svg.png\n" />
     </LinearLayout>
 </LinearLayout>
