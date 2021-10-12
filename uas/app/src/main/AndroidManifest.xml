@@ -10,13 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Uas">
         <activity
+            android:name=".DetilAudioActivity"
+            android:exported="true"
+            android:parentActivityName=".LibraryActivity"/>
+        <activity
             android:name=".LibraryActivity"
             android:exported="true"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LoginActivity"
             android:exported="true"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".profile"
             android:exported="true"

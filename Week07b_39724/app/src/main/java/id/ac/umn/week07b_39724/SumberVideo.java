@@ -19,9 +19,6 @@ public class SumberVideo implements Serializable{
     public void setKeterangan(String keterangan) {
         this.keterangan = keterangan;
     }
-    public void setVideoURI(String videoURI) {
-        this.videoURI = videoURI;
-    }
-    public String toString() { return this.getJudul() + " => "
-            + this.getKeterangan(); }
+    public void setVideoURI(String videoURI) { this.videoURI = videoURI; }
+    public String toString() { return this.getJudul() + " => " + this.getKeterangan(); }
 }

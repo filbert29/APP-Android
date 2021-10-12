@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/kuliah semester 5/APP ANDROID/APP-Android/uas/app/src/main/res/layout/activity_detil_audio.xml" value="0.1" />
+        <entry key="..\:/kuliah semester 5/APP ANDROID/APP-Android/uas/app/src/main/res/layout/activity_library.xml" value="0.33" />
         <entry key="..\:/kuliah semester 5/APP ANDROID/APP-Android/uas/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/kuliah semester 5/APP ANDROID/APP-Android/uas/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/kuliah semester 5/APP ANDROID/APP-Android/uas/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/kuliah semester 5/APP ANDROID/APP-Android/uas/app/src/main/res/layout/layout_sfx.xml" value="0.33" />
       </map>
     </option>
   </component>

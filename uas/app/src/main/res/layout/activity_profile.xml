@@ -16,7 +16,7 @@
             android:id="@+id/profile_image"
             android:layout_width="wrap_content"
             android:layout_height="150dp"
-            android:src="@drawable/profile_pic"
+            android:src="@drawable/pp"
             app:civ_border_color="#FFFF"
             app:civ_border_width="2dp" />
         <TextView
@@ -41,11 +41,18 @@
             android:textSize="18dp"
             android:text="REFERENSI"
             android:gravity="center"/>
-        <TextView
-            android:autoLink="web"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:textSize="8dp"
-            android:text="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/1024px-Speaker_Icon.svg.png\n" />
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:autoLink="web"
+                android:text="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/1024px-Speaker_Icon.svg.png\nwww.youtube.com\nhttps://stackoverflow.com/\nhttps://developer.android.com/docs"
+                android:textSize="8dp"
+                android:gravity="center"/>
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>
